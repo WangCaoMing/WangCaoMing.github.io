@@ -75,7 +75,7 @@ value2: "中文也能正常显示哦"
 
 ## Local Videos
 
-<iframe src="./index_images/video_sample.mp4" width="720" height="1280" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="./index_images/video_sample.mp4" width="720" height="1280" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## tables 
