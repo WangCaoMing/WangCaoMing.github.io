@@ -19,17 +19,26 @@ theme:
 
 plugins: 
   - search
+  - git-revision-date-localized:  # pip3 install mkdocs-git-revision-date-localized-plugin
+      type: date
 
 markdown_extensions:
+  - meta
   - pymdownx.emoji
   - admonition
   - pymdownx.superfences
   - pymdownx.b64
   - footnotes
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.magiclink
   - pymdownx.details
   - pymdownx.arithmatex
   - pymdownx.mark
   - pymdownx.critic
+  - pymdownx.extrarawhtml
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - codehilite:
       linenums: true
   - markdown_aafigure:
