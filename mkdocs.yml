@@ -1,0 +1,60 @@
+site_name: wangmeng_demo
+nav: 
+  - 首页: 
+    - 第一个界面: 'index.md'
+    - 第二个界面: 'android/second_page.md'
+  - About: 
+    - about: 'about.md'
+theme: 
+  name: "material"
+  language: 'zh'
+  logo: 
+    icon: 'school'
+  palette:
+    primary: indigo
+    accent: red
+  feature:
+    tabs: true
+
+
+plugins: 
+  - search
+
+markdown_extensions:
+  - pymdownx.emoji
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.b64
+  - footnotes
+  - pymdownx.details
+  - pymdownx.arithmatex
+  - pymdownx.mark
+  - pymdownx.critic
+  - codehilite:
+      linenums: true
+  - markdown_aafigure:
+      tag_type: inline_svg
+  - pymdownx.superfences:
+      custom_fences:
+      - name: flow
+        class: uml-flowchart
+        format: !!python/name:pymdownx.superfences.fence_code_format
+
+
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/wangcaoming'
+  disqus: 'wangcaoming'
+
+
+copyright: 'Copyright &copy; 2020 - 2021 wangcaoming'
+
+
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js'
+  - 'https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js'
+  - 'https://cdnjs.cloudflare.com/ajax/libs/js-sequence-diagrams/1.0.6/sequence-diagram-min.js'
+  - 'https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js'
+  - js-files/uml_converter.js
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
